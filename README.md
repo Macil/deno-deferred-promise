@@ -1,4 +1,4 @@
-# deferred-promise
+# deferred_promise
 
 [Don't use this unless you know what you're doing.](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns#the-deferred-anti-pattern)
 Prefer the `Promise` constructor.
@@ -9,7 +9,7 @@ Rough port of [p-defer](https://github.com/sindresorhus/p-defer) for
 ## Usage
 
 ```typescript
-import { DeferredPromise } from "https://deno.land/x/deferred-promise@v1.0.0/mod.ts";
+import { DeferredPromise } from "https://deno.land/x/deferred_promise@v1.0.0/mod.ts";
 function delay(milliseconds: number) {
   const deferred = new DeferredPromise<string>();
   setTimeout(() => {

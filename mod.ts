@@ -20,7 +20,7 @@ export class DeferredPromise<T> {
   Create a deferred promise.
   @example
   ```
-  import { DeferredPromise } from 'https://deno.land/x/deferred-promise@v1.0.0/mod.ts';
+  import { DeferredPromise } from 'https://deno.land/x/deferred_promise@v1.0.0/mod.ts';
   function delay(milliseconds: number) {
     const deferred = new DeferredPromise<string>();
     setTimeout(() => {
