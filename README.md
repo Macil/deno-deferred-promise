@@ -13,6 +13,11 @@ inconvenient in some situations.
 
 Originally based on [p-defer](https://github.com/sindresorhus/p-defer).
 
+This library is available for Deno at
+https://deno.land/x/deferred_promise@v1.0.0/mod.ts, and is available for Node.js
+on npm as
+[@macil/deferred-promise](https://www.npmjs.com/package/@macil/deferred-promise).
+
 ## Usage
 
 ```typescript
