@@ -16,7 +16,7 @@ await build({
     name: "@macil/deferred-promise",
     version: Deno.args[0],
     description:
-      "Library to create an object with a promise and the ability to fulfill it ",
+      "Library to create an object with a promise and the ability to fulfill it",
     license: "MIT",
     sideEffects: false,
     repository: {
